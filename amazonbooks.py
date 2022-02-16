@@ -12,7 +12,6 @@ from asyncore import read
 from multiprocessing.spawn import old_main_modules
 
 
-
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-a", "--author",
@@ -120,7 +119,6 @@ def do_all(author, author_url, author_files_folder,user_token, api_token):
         send_pushover_message(author, new_books, user_token, api_token)
     else:
         logging.warning(f"No new books found for {author}")
-
 
 def main():
     logging.info(f"Executing the script with the following arguments: {sys.argv[1:]}")
