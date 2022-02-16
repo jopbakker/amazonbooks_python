@@ -8,7 +8,6 @@ import lxml
 import requests
 import csv
 from bs4 import BeautifulSoup
-from asyncore import read
 from multiprocessing.spawn import old_main_modules
 
 
