@@ -31,7 +31,7 @@ parser.add_argument("--author-file-folder",
 parser.add_argument("--log-level",
                     dest="log_level",
                     help="Set the level of logs to show (Options: DEBUG, INFO, WARNING, ERROR, CRITICAL) - [Default: WARNING]",
-                    default='WARNING',
+                    default='INFO',
                     action='store')
 
 requiredNamed = parser.add_argument_group('required named arguments')
